@@ -1,0 +1,66 @@
+meta:
+  short_name: CCRA
+  name: Carolina Compensation and Rewards Association
+  description: Professional community for compensation and total rewards leaders across North and South Carolina.
+  footer_blurb: Professional community-building for compensation and rewards leaders across the Carolinas.
+
+hero:
+  eyebrow: Launching across North and South Carolina
+  title: Carolina Compensation and Rewards Association
+  lede: CCRA is a new professional community for compensation and total rewards practitioners who want practical learning, meaningful peer connection, and a stronger talent pipeline across the Carolinas.
+  pills:
+    - Hybrid programming
+    - Regional networking
+    - Community impact
+  panel_label: Quick view
+  facts:
+    - Serving compensation, rewards, benefits, and HR professionals
+    - Built for statewide access with virtual and in-person touchpoints
+    - Founding chapter development is underway in 2026
+    - Initial host-city footprint includes Charlotte, Raleigh-Durham, Columbia, Charleston, and Greenville
+
+overview_cards:
+  - kicker: Mission
+    title: Built to strengthen the compensation and rewards community in the Carolinas.
+    paragraphs:
+      - Carolina Compensation and Rewards Association is dedicated to strengthening the compensation and rewards community across North and South Carolina through accessible professional development, community-centered networking, and a future-focused talent pipeline.
+      - The chapter is being shaped as an inclusive, practical, and community-centered forum where professionals can share ideas, build relationships, and stay current on the issues affecting total rewards work.
+
+programs:
+  kicker: What to expect
+  title: Simple, useful programming designed for working professionals.
+  items:
+    - title: Bi-monthly virtual education
+      description: Webinar-style sessions and workshops that keep learning accessible across both states.
+    - title: Quarterly in-person networking
+      description: Local gatherings that prioritize real relationship-building in major Carolina markets.
+    - title: Annual community impact event
+      description: A chapter-led effort tied to workforce development, education, or broader community advancement.
+
+audience:
+  kicker: Who this is for
+  title: A home for compensation and total rewards professionals at multiple career stages.
+  items:
+    - Practitioners leading compensation, rewards, and benefits programs
+    - HR and people leaders working closely with total rewards strategy
+    - Consultants, analysts, and specialists supporting pay and rewards decisions
+    - Early-career professionals and students exploring the field
+
+leadership:
+  kicker: Founding leadership
+  title: Initial board roles are being assembled now.
+  members:
+    - name: Felicia Lawrence
+      role: President and Founder
+    - name: Elizabeth Stillwell
+      role: Secretary
+    - name: Thomas Beckenhauer
+      role: Director of Technology and Systems
+    - name: Treasurer
+      role: Open
+  note: Additional leadership roles under consideration include membership, programs, communications, sponsorships, and governance support.
+
+# closing:
+#   kicker: Next
+#   title: More launch details will be posted here as the chapter moves from formation into active programming.
+#   body: For now, this site serves as the public home for CCRA while branding, outreach, and chapter operations are finalized.

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% assign org = site.data[page.data_key] %}
+    {% unless org %}
+      {% assign org = site.data.ccra %}
+    {% endunless %}
+    {% assign page_title = page.title | default: org.meta.name | default: site.title %}
+    {% assign page_description = page.description | default: org.meta.description | default: site.description %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page_title == site.title %}{{ site.title }}{% else %}{{ page_title }} | {{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page_description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/ccra.css' | relative_url }}">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="{{ '/' | relative_url }}">
+          <span class="wordmark-mark">{{ org.meta.short_name | default: 'CCRA' }}</span>
+          <span class="wordmark-text">{{ org.meta.name | default: site.title }}</span>
+        </a>
+      </header>
+
+      <main class="page-content">
+        {{ content }}
+      </main>
+
+      <footer class="site-footer">
+        <p>{{ org.meta.name | default: site.title }}</p>
+        <p>{{ org.meta.footer_blurb | default: site.description }}</p>
+      </footer>
+    </div>
+  </body>
+</html>

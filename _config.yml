@@ -1,71 +1,8 @@
-title: Community Groups
+title: Carolina Compensation and Rewards Association
+description: Professional community for compensation and total rewards leaders across North and South Carolina.
 theme: jekyll-theme-primer
 last_updated: 2026-02-21
-
-# List of groups shown on the homepage.
-groups:
-  - name: "Columbia Young Professionals"
-    path: "/columbia-young-professionals/"
-  - name: "Columbia, Let’s Do Something!"
-    path: "/columbia-lets-do-something/"
-  - name: "South Main Neighbors"
-    path: "/south-main-neighbors/"
-
-# Policy catalog (replaces `_data/policies.yml`).
-policies_catalog:
-  terms-of-participation:
-    label: "Terms of Participation"
-    href: "./terms-of-participation"
-    description: "General rules and expectations for participating in events and community spaces."
-  code-of-conduct:
-    label: "Code of Conduct"
-    href: "./code-of-conduct"
-    description: "Behavioral standards and reporting procedures to ensure a respectful and welcoming environment."
-  group-chat-and-online-communication:
-    label: "Group Chat and Online Communication"
-    href: "./group-chat-and-online-communication"
-    description: "Guidelines for online spaces associated with the group (group chats, socials, DMs, etc.)."
-  assumption-of-risk:
-    label: "Assumption of Risk & Release of Liability"
-    href: "./assumption-of-risk"
-    description: "Information about risks associated with participation and liability limitations."
-  refund-and-cancellation:
-    label: "Refund & Cancellation Policy"
-    href: "./refund-and-cancellation"
-    description: "How payments, cancellations, refunds, and event viability are handled."
-
-# Default policy set for groups unless overridden in `defaults`.
-policies_default: &policies_default
-  - terms-of-participation
-  - code-of-conduct
-  - assumption-of-risk
-  - refund-and-cancellation
-
-# Directory-scoped defaults so group pages don't repeat the same front matter.
-defaults:
-  - scope:
-      path: "columbia-lets-do-something"
-    values:
-      layout: default
-      group_name: "Columbia, Let's Do Something!"
-      organizer_legal: "10x Software LLC"
-      policies: *policies_default
-  - scope:
-      path: "columbia-young-professionals"
-    values:
-      layout: default
-      group_name: "Columbia Young Professionals"
-      organizer_legal: "10x Software LLC"
-      policies: *policies_default
-  - scope:
-      path: "south-main-neighbors"
-    values:
-      layout: default
-      group_name: "South Main Neighbors"
-      organizer_legal: "10x Software LLC"
-      policies:
-        - terms-of-participation
-        - code-of-conduct
-        - group-chat-and-online-communication
-        - assumption-of-risk
-        - refund-and-cancellation
+exclude:
+  - docExport
+  - Gemfile
+  - Gemfile.lock
