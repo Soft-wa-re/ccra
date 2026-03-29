@@ -50,12 +50,12 @@ leadership:
   kicker: Founding leadership
   title: Initial board roles are being assembled now.
   members:
-    - name: Felicia Lawrence
-      role: President and Founder
-    - name: Elizabeth Stillwell
-      role: Secretary and Founder
-    - name: Thomas Beckenhauer
-      role: Director of Technology and Systems and Founder
+  - name: Felicia Lawrence
+    role: President, Founder
+  - name: Elizabeth Stillwell
+    role: Secretary, Founder
+  - name: Thomas Beckenhauer
+    role: Director of Technology and Systems, Founder
   note: Additional leadership roles under consideration include membership, programs, communications, sponsorships, and governance support.
 
 # closing:
