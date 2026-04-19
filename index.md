@@ -10,32 +10,42 @@ data_key: ccra
   {% assign org = site.data.ccra %}
 {% endunless %}
 
-<section class="hero">
+<section class="hero" aria-labelledby="hero-title">
   <div class="hero-copy">
     <p class="eyebrow">{{ org.hero.eyebrow }}</p>
-    <h1>{{ org.hero.title }}</h1>
+    <h1 id="hero-title">{{ org.hero.title }}</h1>
     <p class="lede">{{ org.hero.lede }}</p>
-    <div class="hero-pills">
-      {% for pill in org.hero.pills %}
-        <span>{{ pill }}</span>
-      {% endfor %}
+    <div class="hero-actions">
+      <a class="button button-primary" href="#programs">See programming</a>
+      <a class="button button-secondary" href="#leadership">Founding leadership</a>
     </div>
   </div>
-  <aside class="hero-panel">
-    <p class="panel-label">{{ org.hero.panel_label }}</p>
-    <ul class="fact-list">
-      {% for fact in org.hero.facts %}
-        <li>{{ fact }}</li>
-      {% endfor %}
-    </ul>
-  </aside>
+  <div class="hero-pills">
+    {% for pill in org.hero.pills %}
+      <span>{{ pill }}</span>
+    {% endfor %}
+  </div>
 </section>
 
-<section class="section-grid{% if org.overview_cards.size == 1 %} single-card-grid{% endif %}">
+<section class="quick-facts" aria-labelledby="quick-facts-title">
+  <div class="section-heading">
+    <p class="section-kicker">{{ org.hero.panel_label }}</p>
+    <h2 id="quick-facts-title">Built for both Carolinas.</h2>
+  </div>
+  <div class="fact-grid">
+      {% for fact in org.hero.facts %}
+        <p>{{ fact }}</p>
+      {% endfor %}
+  </div>
+</section>
+
+<section class="intro-section">
   {% for card in org.overview_cards %}
-    <article class="content-card{% if card.accent %} accent-card{% endif %}">
+    <div class="section-heading">
       <p class="section-kicker">{{ card.kicker }}</p>
       <h2>{{ card.title }}</h2>
+    </div>
+    <article class="intro-copy">
       {% for paragraph in card.paragraphs %}
         <p>{{ paragraph }}</p>
       {% endfor %}
@@ -43,46 +53,55 @@ data_key: ccra
   {% endfor %}
 </section>
 
-<section class="programs">
+<section class="programs" id="programs">
   <div class="section-heading">
     <p class="section-kicker">{{ org.programs.kicker }}</p>
     <h2>{{ org.programs.title }}</h2>
   </div>
-  <div class="program-grid">
+  <div class="program-list">
     {% for item in org.programs.items %}
-      <article class="program-card">
-        <h3>{{ item.title }}</h3>
-        <p>{{ item.description }}</p>
+      <article class="program-row">
+        <span>0{{ forloop.index }}</span>
+        <div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+        </div>
       </article>
     {% endfor %}
   </div>
 </section>
 
-<section class="section-grid">
-  <article class="content-card">
-    <p class="section-kicker">{{ org.audience.kicker }}</p>
-    <h2>{{ org.audience.title }}</h2>
-    <ul class="plain-list">
-      {% for item in org.audience.items %}
-        <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
+<section class="detail-grid">
+  <article id="audience">
+    <div class="section-heading">
+      <p class="section-kicker">{{ org.audience.kicker }}</p>
+      <h2>{{ org.audience.title }}</h2>
+    </div>
+    <div class="plain-list">
+        {% for item in org.audience.items %}
+          <p>{{ item }}</p>
+        {% endfor %}
+    </div>
   </article>
 
-  <article class="content-card">
-    <p class="section-kicker">{{ org.leadership.kicker }}</p>
-    <h2>{{ org.leadership.title }}</h2>
-    <ul class="plain-list">
+  <article id="leadership">
+    <div class="section-heading">
+      <p class="section-kicker">{{ org.leadership.kicker }}</p>
+      <h2>{{ org.leadership.title }}</h2>
+    </div>
+    <div class="leadership-list">
       {% for member in org.leadership.members %}
-        <li><strong>{{ member.name }}</strong>, {{ member.role }}</li>
+        <p><strong>{{ member.name }}</strong><span>{{ member.role }}</span></p>
       {% endfor %}
-    </ul>
+    </div>
     <p class="small-note">{{ org.leadership.note }}</p>
   </article>
 </section>
 
-<!-- <section class="closing-banner">
-  <p class="section-kicker">{{ org.closing.kicker }}</p>
-  <h2>{{ org.closing.title }}</h2>
-  <p>{{ org.closing.body }}</p>
-</section> -->
+<section class="closing-banner">
+  <div>
+    <p class="section-kicker">Next</p>
+    <h2>More launch details will be posted as the chapter moves into active programming.</h2>
+  </div>
+  <a class="button button-primary" href="#programs">Review the plan</a>
+</section>
