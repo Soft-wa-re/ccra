@@ -6,3 +6,52 @@ exclude:
   - docExport
   - Gemfile
   - Gemfile.lock
+
+groups:
+  - name: "Carolina Compensation and Rewards Association"
+    path: "/carolina-compensation-and-rewards-association/"
+
+# Policy catalog (replaces `_data/policies.yml`).
+policies_catalog:
+  terms-of-participation:
+    label: "Terms of Participation"
+    href: "./terms-of-participation"
+    description: "Terms for membership, programs, meetings, communications, and related services."
+  privacy-statement:
+    label: "Privacy Statement"
+    href: "./privacy-statement"
+    description: "How personal information is collected, used, shared, and protected."
+  code-of-conduct:
+    label: "Code of Conduct"
+    href: "./code-of-conduct"
+    description: "Behavioral standards and reporting procedures for respectful professional participation."
+  group-chat-and-online-communication:
+    label: "Online Communication Guidelines"
+    href: "./group-chat-and-online-communication"
+    description: "Guidelines for online spaces administered by the association."
+  assumption-of-risk:
+    label: "Assumption of Risk & Release of Liability"
+    href: "./assumption-of-risk"
+    description: "Information about risks associated with participation and liability limitations."
+  refund-and-cancellation:
+    label: "Refund & Cancellation Policy"
+    href: "./refund-and-cancellation"
+    description: "How payments, cancellations, refunds, and event viability are handled."
+
+# Default policy set for groups unless overridden in `defaults`.
+policies_default: &policies_default
+  - terms-of-participation
+  - privacy-statement
+  - code-of-conduct
+  - assumption-of-risk
+
+# Directory-scoped defaults so group pages don't repeat the same front matter.
+defaults:
+  - scope:
+      path: "carolina-compensation-and-rewards-association"
+    values:
+      layout: default
+      group_name: "Carolina Compensation and Rewards Association"
+      organizer_legal: "Carolina Compensation and Rewards Association"
+      contact_email: "president@carolinacompandrewards.org"
+      policies: *policies_default
