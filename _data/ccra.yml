@@ -56,7 +56,9 @@ leadership:
     role: Secretary, Founder
   - name: Thomas Beckenhauer
     role: Director of Technology and Systems, Founder
-  note: Additional leadership roles under consideration include membership, programs, communications, sponsorships, and governance support.
+  - name: Heidy Cairo
+    role: Director of Membership
+  note: Additional leadership roles under consideration include programs, communications, sponsorships, and governance support.
 
 # closing:
 #   kicker: Next
