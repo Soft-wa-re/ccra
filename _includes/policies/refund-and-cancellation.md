@@ -40,6 +40,8 @@ The following items are nonrefundable after purchase unless the Association stat
 - Donations or contributions
 - Processing fees, transaction fees, wire fees, and other third-party fees
 
+Individual membership dues remain nonrefundable if membership is canceled. For memberships with auto-renewal, you must cancel before your membership renewal date to avoid payment of the renewal fee.
+
 ---
 
 ## 4. Programs, Courses, and Workshops

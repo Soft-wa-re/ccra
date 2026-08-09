@@ -18,7 +18,17 @@ Association Activities are intended for professional education, member developme
 
 ## 2. Membership
 
-Membership is held by the individual member and is not transferable or assignable. Membership categories, voting rights, officer eligibility, dues, application review, and other governance matters are determined by the Association’s bylaws and actions of its Board of Directors.
+Membership is held by the individual member and is not transferable or assignable. Use of your membership by anyone other than you is a violation of Association membership policy.
+
+Individual membership dues are nonrefundable after purchase. If you have elected to auto-renew your membership, your membership will automatically renew on the membership renewal date for the same period as your original membership purchase, and the renewal fee will be charged to the payment method on file. You must cancel before your membership renewal date to avoid payment of the renewal fee.
+
+Unless the Association states otherwise in writing, membership is valid for 12 months from the last day of the month in which payment was received. For example, if payment is received on November 1, 2026, that membership will expire on November 30, 2027.
+
+Membership follows the individual member even if the member changes employers or leaves the organization that paid for the membership. Members are encouraged to keep account contact information and login credentials current.
+
+The Association may offer discounts to qualified individuals, such as WorldatWork members who list the Association as their local affiliate chapter, undergraduate students, or other categories approved by the Association. For more information, contact the Association at **{{ page.contact_email | default: "president@carolinacompandrewards.org" }}**.
+
+Membership categories, voting rights, officer eligibility, dues, application review, discounts, and other governance matters are determined by the Association’s bylaws and actions of its Board of Directors.
 
 The Association may approve, deny, suspend, or terminate participation or membership privileges as permitted by its bylaws, these Terms, the Code of Conduct, applicable policies, and law.
 
