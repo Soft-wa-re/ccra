@@ -54,7 +54,19 @@ You may be able to disable cookies through your browser settings, but some websi
 
 ---
 
-## 5. Online Spaces and Communications Are Not Confidential
+## 5. Social Media
+
+The Association may maintain or participate in social media pages, groups, profiles, channels, or feeds, including on third-party platforms such as Facebook, YouTube, X/Twitter, Instagram, LinkedIn, and similar services (collectively, “Social Media”).
+
+Anything you post on Social Media should be treated as public information and will not be treated as confidential by the Association. We may post, repost, share, or otherwise display comments, images, content, or interactions that you post on Association Social Media pages or in Association Social Media spaces.
+
+Our website may allow you to connect with or share information through Social Media. These features may rely on cookies, plug-ins, APIs, pixels, advertising networks, or similar technologies provided by Social Media platforms or related service providers.
+
+Your use of Social Media is governed by the privacy policies, terms, and data practices of the third parties that own and operate those platforms, not by this Privacy Statement. We encourage you to review those policies and terms.
+
+---
+
+## 6. Online Spaces and Communications Are Not Confidential
 
 Information posted on Association websites, listservs, forums, bulletin boards, email groups, group chats, virtual meeting chats, social media spaces, or broadcast emails should not be treated as confidential.
 
@@ -64,7 +76,7 @@ The Association may monitor Association-managed websites and online spaces and m
 
 ---
 
-## 6. Company Confidential and Restricted Information
+## 7. Company Confidential and Restricted Information
 
 Members, guests, speakers, sponsors, volunteers, and other participants are responsible for protecting confidential, proprietary, personal, privileged, trade secret, competitively sensitive, or restricted information belonging to their employers, clients, employees, vendors, or other third parties.
 
@@ -72,7 +84,7 @@ Do not submit, post, present, or disclose company confidential information, empl
 
 ---
 
-## 7. Data Security and Retention
+## 8. Data Security and Retention
 
 We use reasonable administrative, technical, and organizational measures appropriate for a nonprofit professional association. No website, email system, payment process, or online platform can be guaranteed to be fully secure.
 
@@ -80,7 +92,7 @@ We retain information for as long as reasonably necessary for membership, progra
 
 ---
 
-## 8. Your Choices
+## 9. Your Choices
 
 You may contact us to request that we update contact information, review reasonable privacy questions, or remove you from nonessential communications. We may retain information where needed for legal, tax, accounting, governance, security, dispute-resolution, or legitimate Association purposes.
 
@@ -88,6 +100,6 @@ To contact us about privacy matters, email **{{ page.contact_email | default: "p
 
 ---
 
-## 9. Changes to This Privacy Statement
+## 10. Changes to This Privacy Statement
 
 The Association may update this Privacy Statement from time to time. The version posted on the website applies unless a specific Association Activity states otherwise.
