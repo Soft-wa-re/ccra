@@ -6,6 +6,11 @@ exclude:
   - docExport
   - Gemfile
   - Gemfile.lock
+  - carolina-compensation-and-rewards-association/assumption-of-risk.md
+  - carolina-compensation-and-rewards-association/code-of-conduct.md
+  - carolina-compensation-and-rewards-association/privacy-statement.md
+  - carolina-compensation-and-rewards-association/refund-and-cancellation.md
+  - carolina-compensation-and-rewards-association/terms-of-participation.md
 
 groups:
   - name: "Carolina Compensation and Rewards Association"
