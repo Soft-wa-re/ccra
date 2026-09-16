@@ -1,0 +1,23 @@
+assets/css/ccra.css
+  s_e41bf847077ba4::t_636731069a3822 373-377
+_layouts/ccra.html
+  s_e41bf847077ba4::t_636731069a3822 32-33
+_data/ccra.yml
+  s_e41bf847077ba4::t_636731069a3822 5-7,28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "0afc95e380a6440e6ba75c2301a28ae1399dffcc",
+  "prompts": {},
+  "sessions": {
+    "s_e41bf847077ba4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aa51-c4d4-7b70-b8c9-e6c11692e04e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thomas beckenhauer <thomas.beckenhauer.developer@gmail.com>"
+    }
+  }
+}
