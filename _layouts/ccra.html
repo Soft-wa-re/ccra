@@ -29,6 +29,8 @@
       <footer class="site-footer">
         <p>{{ org.meta.name | default: site.title }}</p>
         <p>{{ org.meta.footer_blurb | default: site.description }}</p>
+        <p class="footer-metadata">{{ org.meta.footer_metadata }}</p>
+        <p><a href="mailto:{{ org.meta.contact_email }}">{{ org.meta.contact_email }}</a></p>
       </footer>
     </div>
   </body>
