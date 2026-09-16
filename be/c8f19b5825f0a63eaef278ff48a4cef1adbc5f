@@ -1,0 +1,19 @@
+_config.yml
+  s_e41bf847077ba4::t_83aa9d07384136 9-13,62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "bec8f19b5825f0a63eaef278ff48a4cef1adbc5f",
+  "prompts": {},
+  "sessions": {
+    "s_e41bf847077ba4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aa51-c4d4-7b70-b8c9-e6c11692e04e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thomas beckenhauer <thomas.beckenhauer.developer@gmail.com>"
+    }
+  }
+}
