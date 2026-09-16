@@ -2,7 +2,9 @@ meta:
   short_name: CCRA
   name: Carolina Compensation and Rewards Association
   description: Professional community for compensation and total rewards leaders across North and South Carolina.
-  footer_blurb: Professional community-building for compensation and rewards leaders across the Carolinas.
+  footer_blurb: A 501(c)(3) nonprofit professional association serving North and South Carolina.
+  footer_metadata: "EIN: 41-5380128 · South Carolina Entity ID: 01608436"
+  contact_email: info@carolinacompandrewards.org
 
 hero:
   eyebrow: Launching across North and South Carolina
@@ -23,7 +25,7 @@ overview_cards:
   - kicker: Mission
     title: Built to strengthen the compensation and rewards community in the Carolinas.
     paragraphs:
-      - Carolina Compensation and Rewards Association is dedicated to strengthening the compensation and rewards community across North and South Carolina through accessible professional development, community-centered networking, and a future-focused talent pipeline.
+      - Carolina Compensation and Rewards Association is a 501(c)(3) nonprofit professional association dedicated to strengthening the compensation and rewards community across North and South Carolina through accessible professional development, community-centered networking, and a future-focused talent pipeline.
       - The chapter is being shaped as an inclusive, practical, and community-centered forum where professionals can share ideas, build relationships, and stay current on the issues affecting total rewards work.
 
 programs:

@@ -370,6 +370,11 @@ a {
   margin: 0.2rem 0;
 }
 
+.site-footer .footer-metadata {
+  font-size: 0.82rem;
+  opacity: 0.78;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .hero-copy,
   .hero-pills {
