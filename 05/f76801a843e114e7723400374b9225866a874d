@@ -1,0 +1,16 @@
+_data/ccra.yml
+  h_b4e8fce3b624b4 6-7,64-65
+_layouts/ccra.html
+  h_b4e8fce3b624b4 22-23,26,36-37
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "05f76801a843e114e7723400374b9225866a874d",
+  "prompts": {},
+  "humans": {
+    "h_b4e8fce3b624b4": {
+      "author": "thomas beckenhauer <thomas.beckenhauer.developer@gmail.com>"
+    }
+  }
+}
