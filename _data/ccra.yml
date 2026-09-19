@@ -3,7 +3,8 @@ meta:
   name: Carolina Compensation and Rewards Association
   description: Professional community for compensation and total rewards leaders across North and South Carolina.
   footer_blurb: A 501(c)(3) nonprofit professional association serving North and South Carolina.
-  footer_metadata: "EIN: 41-5380128 · South Carolina Entity ID: 01608436"
+  footer_metadata_IRS_EIN: "EIN: 41-5380128"
+  footer_metadata_SC_EID: "South Carolina Entity ID: 01608436"
   contact_email: info@carolinacompandrewards.org
 
 hero:
@@ -60,6 +61,8 @@ leadership:
     role: Director of Technology and Systems, Founder
   - name: Heidy Cairo
     role: Director of Membership
+  - name: Richard Burtner
+    role: Treasurer
   note: Additional leadership roles under consideration include programs, communications, sponsorships, and governance support.
 
 # closing:
