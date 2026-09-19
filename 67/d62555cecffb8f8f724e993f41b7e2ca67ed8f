@@ -1,0 +1,14 @@
+.gitignore
+  h_b4e8fce3b624b4 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "67d62555cecffb8f8f724e993f41b7e2ca67ed8f",
+  "prompts": {},
+  "humans": {
+    "h_b4e8fce3b624b4": {
+      "author": "thomas beckenhauer <thomas.beckenhauer.developer@gmail.com>"
+    }
+  }
+}
