@@ -6,6 +6,11 @@ meta:
   footer_metadata_IRS_EIN: "EIN: 41-5380128"
   footer_metadata_SC_EID: "South Carolina Entity ID: 01608436"
   contact_email: info@carolinacompandrewards.org
+  mailing_address:
+    - CAROLINA COMPENSATION AND AWARDSOCIATION
+    - C/O ELIZABETH STILLWELL
+    - 2000 PARK STREET
+    - COLUMBIA, SC 29201
 
 hero:
   eyebrow: Launching across North and South Carolina
