@@ -1,0 +1,24 @@
+_data/ccra.yml
+  s_e41bf847077ba4::t_0b3998d5d637c2 63-65,68-70,73-75,78-80,83-85
+  s_e41bf847077ba4::t_42c5112e227067 88-97
+scripts/forward-email-records.rb
+  s_e41bf847077ba4::t_42c5112e227067 1-9,23,34-47
+  s_e41bf847077ba4::t_d76e8367d92dcf 24-33
+  s_e41bf847077ba4::t_0b3998d5d637c2 10-22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "35d52b622d27ba0a05e2fadc07987e8e66c5c18c",
+  "prompts": {},
+  "sessions": {
+    "s_e41bf847077ba4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aa51-c4d4-7b70-b8c9-e6c11692e04e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thomas beckenhauer <thomas.beckenhauer.developer@gmail.com>"
+    }
+  }
+}
