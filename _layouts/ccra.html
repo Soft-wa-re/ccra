@@ -36,6 +36,11 @@
         <p class="footer-metadata">{{ org.meta.footer_metadata_IRS_EIN }}</p>
         <p class="footer-metadata">{{ org.meta.footer_metadata_SC_EID }}</p>
         <p><a href="mailto:{{ org.meta.contact_email }}">{{ org.meta.contact_email }}</a></p>
+        <address class="footer-address" aria-label="Mailing address">
+          {% for line in org.meta.mailing_address %}
+            <span>{{ line }}</span>
+          {% endfor %}
+        </address>
       </footer>
     </div>
   </body>

@@ -6,6 +6,11 @@ meta:
   footer_metadata_IRS_EIN: "EIN: 41-5380128"
   footer_metadata_SC_EID: "South Carolina Entity ID: 01608436"
   contact_email: info@carolinacompandrewards.org
+  mailing_address:
+    - CAROLINA COMPENSATION AND AWARDSOCIATION
+    - C/O ELIZABETH STILLWELL
+    - 2000 PARK STREET
+    - COLUMBIA, SC 29201
 
 hero:
   eyebrow: Launching across North and South Carolina
@@ -55,15 +60,40 @@ leadership:
   members:
   - name: Felicia Lawrence
     role: President, Founder
+    email:
+      alias: president
+      forwards_to: felicia.lawrence@gmail.com
   - name: Elizabeth Stillwell
     role: Secretary, Founder
+    email:
+      alias: secretary
+      forwards_to: elizabethstillwellc@gmail.com
   - name: Thomas Beckenhauer
     role: Director of Technology and Systems, Founder
+    email:
+      alias: technology
+      forwards_to: thomasbeckenhauer@gmail.com
   - name: Heidy Cairo
     role: Director of Membership
+    email:
+      alias: membership
+      forwards_to: heidycairo@gmail.com
   - name: Richard Burtner
     role: Treasurer
+    email:
+      alias: treasurer
+      forwards_to: rjburtner01@gmail.com
   note: Additional leadership roles under consideration include programs, communications, sponsorships, and governance support.
+
+email_forwarding:
+  domain: carolinacompandrewards.org
+  group_aliases:
+    info:
+      - membership
+      - secretary
+      - president
+      - technology
+      - treasurer
 
 # closing:
 #   kicker: Next
