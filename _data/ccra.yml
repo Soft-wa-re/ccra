@@ -6,11 +6,22 @@ meta:
   footer_metadata_IRS_EIN: "EIN: 41-5380128"
   footer_metadata_SC_EID: "South Carolina Entity ID: 01608436"
   contact_email: info@carolinacompandrewards.org
-  mailing_address:
-    - CAROLINA COMPENSATION AND AWARDSOCIATION
-    - C/O ELIZABETH STILLWELL
-    - 2000 PARK STREET
-    - COLUMBIA, SC 29201
+  mailing_addresses:
+    - id: current
+      label: Current Mailing Address
+      lines:
+        - Carolina Compensation and Rewards Association
+        - 2000 Park Street, Suite 101
+        - PMB 1416
+        - Columbia, SC 29201-2011
+    - id: original-irs
+      label: Original IRS Record
+      lines:
+        - Carolina Compensation and Awards Association
+        - C/O Elizabeth Stillwell
+        - 2000 Park Street
+        - Columbia, SC 29201
+  irs_records_clarification: The original determination letter contains an earlier organization name and abbreviated mailing address. The IRS public listing now reflects our correct legal name.
 
 hero:
   eyebrow: Launching across North and South Carolina

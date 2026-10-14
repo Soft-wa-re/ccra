@@ -19,11 +19,7 @@
         <a class="wordmark" href="{{ '/' | relative_url }}">
           <span class="wordmark-mark">{{ org.meta.short_name | default: 'CCRA' }}</span>
           <span class="wordmark-text">{{ org.meta.name | default: site.title }}</span>
-          <p class="footer-metadata">{{ org.meta.footer_metadata_IRS_EIN }}</p>
-          <p class="footer-metadata">{{ org.meta.footer_metadata_SC_EID }}</p>
-          <p><a href="mailto:{{ org.meta.contact_email }}">{{ org.meta.contact_email }}</a></p>
         </a>
-          <p>{{ org.meta.footer_blurb | default: site.description }}</p>
       </header>
 
       <main class="page-content">
@@ -31,16 +27,26 @@
       </main>
 
       <footer class="site-footer">
-        <p>{{ org.meta.name | default: site.title }}</p>
+        <p class="footer-name">{{ org.meta.name | default: site.title }}</p>
         <p>{{ org.meta.footer_blurb | default: site.description }}</p>
         <p class="footer-metadata">{{ org.meta.footer_metadata_IRS_EIN }}</p>
         <p class="footer-metadata">{{ org.meta.footer_metadata_SC_EID }}</p>
         <p><a href="mailto:{{ org.meta.contact_email }}">{{ org.meta.contact_email }}</a></p>
-        <address class="footer-address" aria-label="Mailing address">
-          {% for line in org.meta.mailing_address %}
-            <span>{{ line }}</span>
+
+        <div class="footer-addresses">
+          {% for address in org.meta.mailing_addresses %}
+            <section class="footer-address-block" aria-labelledby="footer-address-{{ address.id }}">
+              <h2 id="footer-address-{{ address.id }}">{{ address.label }}</h2>
+              <address>
+                {% for line in address.lines %}
+                  <span>{{ line }}</span>
+                {% endfor %}
+              </address>
+            </section>
           {% endfor %}
-        </address>
+        </div>
+
+        <p class="footer-clarification"><strong>IRS records clarification:</strong> {{ org.meta.irs_records_clarification }}</p>
       </footer>
     </div>
   </body>
