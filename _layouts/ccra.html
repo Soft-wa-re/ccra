@@ -20,13 +20,19 @@
           <span class="wordmark-mark">{{ org.meta.short_name | default: 'CCRA' }}</span>
           <span class="wordmark-text">{{ org.meta.name | default: site.title }}</span>
         </a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a href="{{ '/#about' | relative_url }}">About CCRA</a>
+          <a href="{{ org.links.events }}">Events</a>
+          <a class="site-nav-cta" href="{{ org.links.membership }}">Join Us</a>
+          <a href="{{ '/#contact' | relative_url }}">Contact</a>
+        </nav>
       </header>
 
       <main class="page-content">
         {{ content }}
       </main>
 
-      <footer class="site-footer">
+      <footer class="site-footer" id="contact">
         <p class="footer-name">{{ org.meta.name | default: site.title }}</p>
         <p>{{ org.meta.footer_blurb | default: site.description }}</p>
         <p class="footer-metadata">{{ org.meta.footer_metadata_IRS_EIN }}</p>
