@@ -1,0 +1,30 @@
+index.md
+  s_e41bf847077ba4::t_75053912749c5c 19-20,30,44,56,86-88
+assets/css/ccra.css
+  s_e41bf847077ba4::t_75053912749c5c 41-44,76-102,215-220,340-342,524-531,535-542,552,554-561,574
+  s_e41bf847077ba4::t_563074dd024c97 343,471-476
+  s_e41bf847077ba4::t_eab4932d928402 532-534,553
+  s_e41bf847077ba4::t_b66fff72369188 344
+_config.yml
+  s_e41bf847077ba4::t_75053912749c5c 2
+_layouts/ccra.html
+  s_e41bf847077ba4::t_75053912749c5c 23-28,35
+_data/ccra.yml
+  s_e41bf847077ba4::t_75053912749c5c 4,26-29,31,33,35,37,46-47,49-56,68-69
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "086845a95f5cb67454f0768bf2f91a4e2f89456c",
+  "prompts": {},
+  "sessions": {
+    "s_e41bf847077ba4": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0aa51-c4d4-7b70-b8c9-e6c11692e04e",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "thomas beckenhauer <thomas.beckenhauer.developer@gmail.com>"
+    }
+  }
+}
