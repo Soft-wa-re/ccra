@@ -16,8 +16,8 @@ data_key: ccra
     <h1 id="hero-title">{{ org.hero.title }}</h1>
     <p class="lede">{{ org.hero.lede }}</p>
     <div class="hero-actions">
-      <a class="button button-primary" href="#programs">See programming</a>
-      <a class="button button-secondary" href="#leadership">Founding leadership</a>
+      <a class="button button-primary" href="{{ org.links.membership }}">Join Us</a>
+      <a class="button button-secondary" href="{{ org.links.events }}">View Events</a>
     </div>
   </div>
   <div class="hero-pills">
@@ -27,19 +27,7 @@ data_key: ccra
   </div>
 </section>
 
-<section class="quick-facts" aria-labelledby="quick-facts-title">
-  <div class="section-heading">
-    <p class="section-kicker">{{ org.hero.panel_label }}</p>
-    <h2 id="quick-facts-title">Built for both Carolinas.</h2>
-  </div>
-  <div class="fact-grid">
-      {% for fact in org.hero.facts %}
-        <p>{{ fact }}</p>
-      {% endfor %}
-  </div>
-</section>
-
-<section class="intro-section">
+<section class="intro-section" id="about">
   {% for card in org.overview_cards %}
     <div class="section-heading">
       <p class="section-kicker">{{ card.kicker }}</p>
@@ -53,7 +41,7 @@ data_key: ccra
   {% endfor %}
 </section>
 
-<section class="programs" id="programs">
+<section class="programs" id="participate">
   <div class="section-heading">
     <p class="section-kicker">{{ org.programs.kicker }}</p>
     <h2>{{ org.programs.title }}</h2>
@@ -65,6 +53,7 @@ data_key: ccra
         <div>
           <h3>{{ item.title }}</h3>
           <p>{{ item.description }}</p>
+          <a class="button {% if item.action_key == 'membership' %}button-primary{% else %}button-outline{% endif %}" href="{{ org.links[item.action_key] }}">{{ item.action_label }}</a>
         </div>
       </article>
     {% endfor %}
@@ -94,14 +83,8 @@ data_key: ccra
         <p><strong>{{ member.name }}</strong><span>{{ member.role }}</span></p>
       {% endfor %}
     </div>
-    <p class="small-note">{{ org.leadership.note }}</p>
+    {% if org.leadership.note %}
+      <p class="small-note">{{ org.leadership.note }}</p>
+    {% endif %}
   </article>
-</section>
-
-<section class="closing-banner">
-  <div>
-    <p class="section-kicker">Next</p>
-    <h2>More launch details will be posted as the chapter moves into active programming.</h2>
-  </div>
-  <a class="button button-primary" href="#programs">Review the plan</a>
 </section>

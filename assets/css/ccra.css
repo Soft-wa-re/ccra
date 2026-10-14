@@ -38,6 +38,10 @@ a {
 }
 
 .site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
   padding: 1rem 0;
 }
 
@@ -67,6 +71,33 @@ a {
   font-size: 1rem;
   font-weight: 800;
   line-height: 1.15;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(0.9rem, 2vw, 1.5rem);
+  color: var(--forest);
+  font-size: 0.9rem;
+  font-weight: 800;
+}
+
+.site-nav a {
+  padding: 0.45rem 0;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  transition: border-color 180ms ease, color 180ms ease;
+}
+
+.site-nav a:hover,
+.site-nav a:focus-visible {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.site-nav .site-nav-cta {
+  color: var(--red);
 }
 
 .page-content {
@@ -179,6 +210,12 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.42);
   background: rgba(255, 255, 255, 0.08);
   color: var(--white);
+}
+
+.button-outline {
+  border: 1px solid var(--forest);
+  background: transparent;
+  color: var(--forest);
 }
 
 .hero-pills {
@@ -298,6 +335,11 @@ a {
 .small-note {
   margin: 0;
   color: var(--muted);
+}
+
+.program-row .button {
+  width: fit-content;
+  margin-top: 1rem;
 }
 
 .detail-grid {
@@ -426,6 +468,12 @@ a {
   }
 }
 
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 @keyframes hero-rise {
   from {
     opacity: 0;
@@ -473,6 +521,25 @@ a {
   }
 }
 
+@media (max-width: 780px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .site-nav {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.25rem 1.25rem;
+    width: 100%;
+  }
+
+  .hero {
+    min-height: calc(100svh - 8rem);
+  }
+}
+
 @media (max-width: 640px) {
   .page-shell {
     width: min(100% - 1rem, var(--max));
@@ -480,6 +547,16 @@ a {
 
   .site-header {
     padding: 0.75rem 0;
+  }
+
+  .site-nav {
+    gap: 0.2rem 1rem;
+    font-size: 0.78rem;
+  }
+
+  .site-nav a {
+    padding-right: 0.15rem;
+    padding-left: 0.15rem;
   }
 
   .wordmark-mark {
@@ -494,7 +571,7 @@ a {
   }
 
   .hero {
-    min-height: calc(92svh - 4.5rem);
+    min-height: calc(100svh - 7.6rem);
     padding: 4rem 1rem 3.25rem;
     background:
       linear-gradient(90deg, rgba(7, 26, 21, 0.96) 0%, rgba(7, 26, 21, 0.84) 68%, rgba(7, 26, 21, 0.5) 100%),
